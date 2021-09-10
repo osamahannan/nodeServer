@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://git.heroku.com/ichat-app-carnage.git');
 
 const form = document.getElementById('send-container');
 const messageInput= document.getElementById('messageInp');
